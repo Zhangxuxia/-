@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画廊</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/pic_lang.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pic_lang.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class=" row" style="background:#F5F4F2 ">
+        <div class="col-xs-4 col-lg-4 col-md-4 col-sm-6 top_pic">
+                     <span class="pci_icon">
+                          <i class="icon-picture pic_icon"></i>
+                       <span class="logo">馋猫相册画廊</span>
+                      </span>
+        </div>
+        <div class="col-lg-4 col-md-4 hidden-xs col-sm-6" style="padding-top: 26px; padding-left: 43px;">
+            <img src="images/food_img.PNG" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 login">
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+            <a href="#">收藏</a>
+        </div>
+
+    </div>
+    <div class=" row">
+            <div class=" col-lg-12 col-md-12 col-sm-12 navbar">
+                <div class="hidden-xs col-lg-8 col-md-8 col-sm-8 nav">
+                    <ul>
+                        <li><a href="#">Home page</a></li>
+                        <li><a href="#">breakfast</a></li>
+                        <li><a href="#">lunch</a></li>
+                        <li><a href="#">dinner</a></li>
+                        <li><a href="#">description</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="hidden-xs col-lg-4 col-md-4 col-sm-4">
+                    <form class="form-inline" role="form" style="float:right">
+                        <div class="form-group ">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="name" placeholder="Search" style="width: 250px;border-radius: 10px;height: 44px;margin-top: 18px;">
+                        </div>
+                        <button type="submit" class="btn btn-default" style="width: 65px;">提交</button>
+                    </form>
+                </div>
+                <button class=" hidden-lg hidden-md hidden-sm navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                    &#9776;
+                </button>
+                <div class="hidden-lg hidden-md hidden-sm nav_hiddent">
+                    <ul>
+                        <li><a href="#">Home page</a></li>
+                        <li><a href="#">breakfast</a></li>
+                        <li><a href="#">lunch</a></li>
+                        <li><a href="#">dinner</a></li>
+                        <li><a href="#">description</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    </div>
+
+    <!--第1个页面-->
+   <div class=" container content_div" style="background: #F5F4F2">
+            <!--轮播图-->
+            <div class="container">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/lunbo_img.jpg" alt="...">
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/lunbo_img1.jpg" alt="...">
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/lunbo_img2.jpg" alt="...">
+                            <div class="carousel-caption">
+                                ...
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!--美食-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 welcome-left">
+                            <h2>Welcome</h2>
+                            <h5>Praesent libero lacus, tincidunt sit amet iaculis quis</h5>
+                            <p>Suspendisse vehicula finibus mauris nec suscipit. Praesent libero lacus, tincidunt sit amet iaculis quis, fringilla in libero. Pellentesque nunc nibh, malesuada sed luctus vel,</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 welcome-right">
+                            <img src="images/zao_meishi1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 welcome-right">
+                            <img src="images/wu_meishi2.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 welcome-left" style="float: right">
+                            <h2>Welcome</h2>
+                            <h5>Praesent libero lacus, tincidunt sit amet iaculis quis</h5>
+                            <p>Suspendisse vehicula finibus mauris nec suscipit. Praesent libero lacus, tincidunt sit amet iaculis quis, fringilla in libero. Pellentesque nunc nibh, malesuada sed luctus vel,</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 welcome-left">
+                            <h2>Welcome</h2>
+                            <h5>Praesent libero lacus, tincidunt sit amet iaculis quis</h5>
+                            <p>Suspendisse vehicula finibus mauris nec suscipit. Praesent libero lacus, tincidunt sit amet iaculis quis, fringilla in libero. Pellentesque nunc nibh, malesuada sed luctus vel,</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 welcome-right">
+                            <img src="images/meishi_img1.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 20px">
+                        <h3 class="news"> News & Events</h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="news_food">
+                            <img src="images/news_img1.jpg" alt=""/>
+                        </div>
+                        <div class="news-grid-info">
+                            <a href="#">Donec cursus felis a enim egestas</a>
+                            <p class="date">19th June | 10:00 - 12:00</p>
+                            <p class="text">Etiam ex lorem cursus vitae placerat suscipit dapibus tortor sed nec augue vitae placerat suscipit dapibus tortor sed nec augue enim rhoncus ultricies eros interdum aliquam eros iaculis id.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="news_food">
+                            <img src="images/news_img2.jpg" alt=""/>
+                        </div>
+                        <div class="news-grid-info">
+                            <a href="#">Donec cursus felis a enim egestas</a>
+                            <p class="date">19th June | 10:00 - 12:00</p>
+                            <p class="text">Etiam ex lorem cursus vitae placerat suscipit dapibus tortor sed nec augue vitae placerat suscipit dapibus tortor sed nec augue enim rhoncus ultricies eros interdum aliquam eros iaculis id.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 20px">
+                        <h3 class="news">Contact Us</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 Contact">
+                        <h3>Popular</h3>
+                        <p>
+                            Proin placerat ipsum et rutrum<br>
+                            Vestibulum et ligula lectus<br>
+                            Praesent in augue ut purus<br>
+                            Proin semper ut ligula sit amet<br>
+                            Vestibulum hendrerit lacus ut mi<br>
+                            Fusce sollicitudin nunc est
+                        </p>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 Contact">
+                        <h3>Popular</h3>
+                        <p>
+                            Proin placerat ipsum et rutrum<br>
+                            Vestibulum et ligula lectus<br>
+                            Praesent in augue ut purus<br>
+                            Proin semper ut ligula sit amet<br>
+                            Vestibulum hendrerit lacus ut mi<br>
+                            Fusce sollicitudin nunc est
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 conctat">
+                        <h3>Popular</h3>
+                        <form>
+
+                            <div class="col-lg-6 col-xs-6 col-md-8 col-sm-8">
+                                <input type="text" name="name" class="form-control" placeholder="name">
+                            </div>
+                            <div class="col-lg-6 col-xs-6 col-md-8 col-sm-8">
+                                <input type="text" name="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12" >
+                                <textarea name="content" class="form-control" placeholder="Message content" rows="4"></textarea>
+                            </div>
+                            <div class="col-lg-8 col-xs-8 col-md-8 col-sm-8">
+                                <input type="button" class="btn btn-primary" value="submit">
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 Copyright ">
+                   <p>Copyright © 2017 Your Company | More Templates 李达康书记 - Collect from 张许许</p>
+
+
+               </div>
+
+           </div>
+       </div>
+
+
+        </div>
+    <!--第2个页面-->
+    <div class=" container-fluid content_div hide1 ">
+    <div class="row">
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao1.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao2.jpg" alt="" class="pic_img"/>
+              <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao3.jpg" alt="" class="pic_img"/>
+              <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+            <img src="images/zao4.jpg" alt="" class="pic_img"/>
+              <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao5.jpg" alt="" class="pic_img"/>
+             <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao6.jpg" alt="" class="pic_img"/>
+             <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao7.jpg" alt="" class="pic_img"/>
+             <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+            <img src="images/zao8.jpg" alt="" class="pic_img"/>
+             <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian img_shijian">
+            <img src="images/zao5.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian img_shijian">
+            <img src="images/zao10.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian img_shijian">
+            <img src="images/zao11.jpeg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian img_shijian">
+            <img src="images/zao12.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao13.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao14.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+            <img src="images/zao15.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+            <img src="images/zao16.jpg" alt="" class="pic_img"/>
+            <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 footer_nav">
+            <ul >
+                <li><a href="#" class="ziti">
+                    <i class="icon-facebook"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="icon-google-plus"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="icon-twitter"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="icon-apple"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="icon-linkedin"></i>
+                </a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 Copyright ">
+            <p>Copyright © 2017 Your Company | More Templates 李达康书记 - Collect from 张许许</p>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!--第3个页面-->
+    <div class="content_div hide1">
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wu1.gif" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wu2.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian ">
+                <img src="images/wu3.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+                <img src="images/wu4.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu5.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu6.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu7.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+                  <img src="images/wu8.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu9.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu10.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu11.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+                  <img src="images/wu12.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu13.gif" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu14.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                  <img src="images/wu15.jpg" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+                  <img src="images/wu16.gif" alt="" class="pic_img"/>
+                <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 footer_nav">
+                <ul >
+                    <li><a href="#" class="ziti">
+                        <i class="icon-facebook"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-google-plus"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-twitter"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-apple"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-linkedin"></i>
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 Copyright ">
+                <p>Copyright © 2017 Your Company | More Templates 李达康书记 - Collect from 张许许</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--第4个页面-->
+    <div class="content_div hide1">
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 img_shijian">
+                <img src="images/wan1.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 img_shijian">
+                <img src="images/wan2.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 img_shijian">
+                <img src="images/wan2.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md img_shijian">
+                <img src="images/wan4.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wan5.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+                <img src="images/wan6.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wan7.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+                <img src="images/wan8.png" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wan9.png" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wan10.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 col-md-4 col-sm-4 img_shijian">
+                <img src="images/wan11.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+            <div class="col-lg-3 col-xs-6 hidden-md hidden-sm img_shijian">
+                <img src="images/wan12.jpg" alt="" class="pic_img"/>
+                 <div class="images_hover">
+                <h3>goodmorning</h3>
+                <p>快让我到你嘴里去</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 footer_nav">
+                <ul >
+                    <li><a href="#" class="ziti">
+                        <i class="icon-facebook"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-google-plus"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-twitter"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-apple"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-linkedin"></i>
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 Copyright ">
+                <p>Copyright © 2017 Your Company | More Templates 李达康书记 - Collect from 张许许</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--第5个页面-->
+    <div class="content_div hide1" style="background: #61C4B9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 col4">
+                    <div class="col4_box">
+                        <div class="col-lg-10 col-xs-10 col-md-10 col-sm-10">
+                            <h3>Multiple Columns</h3>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                            <p>
+                                Set true or false in HTML page line number 40 to turn on off page color. Mauris elit elit, imperdiet nec lorem sed, finibus maximus mauris. Nam laoreet eros nec convallis placerat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 col4">
+                     <div class="col4_box">
+                         <div class="col-lg-10 col-xs-10 col-md-10 col-sm-10">
+                             <h3>Class aptent taciti</h3>
+                         </div>
+                         <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                             <p>
+                                 Aenean congue nulla et ligula consectetur consequat. Nullam fringilla blandit risus vitae auctor. Donec sed sapien varius, tincidunt nulla ut, ultrices nisl.
+                             </p>
+                         </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 col4">
+                     <div class="col4_box">
+                         <div class="col-lg-10 col-xs-10 col-md-10 col-sm-10">
+                             <h3>Aenean auctor</h3>
+                         </div>
+                         <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                             <p>
+                                 Integer enim tortor, tempor quis augue luctus, condimentum porttitor urna. Maecenas condimentum suscipit tortor vitae convallis.
+                             </p>
+                         </div>
+                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6 col6">
+                    <div class="col6_box">
+                        <div class="col-lg-10 col-xs-10 col-md-10 col-sm-10">
+                            <h3>Nulla vitae magna</h3>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                            <p>
+                                Donec at felis at risus mattis efficitur. Pellentesque dui urna, blandit a congue ut, blandit sed eros. Sed sagittis consequat pellentesque. Vivamus eros turpis, lobortis sed fermentum euismod, vehicula id eros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6 col6">
+                    <div class="col6_box">
+                        <div class="col-lg-10 col-xs-10 col-md-10 col-sm-10 ">
+                            <h3>Pellentesque dui urna</h3>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                            <p>
+                                Maecenas porta placerat lacus a lacinia. In imperdiet cursus erat, luctus molestie lorem congue at. Donec fringilla tortor non ipsum semper, sit amet aliquet magna rutrum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                    <div class="col12_box">
+                        <div class="col-lg-10 col-xs-10 col-md-10 col-sm-10">
+                            <h3>One Single Column</h3>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 col12">
+                            <p>
+                                You can simply set var tm_gray_site = true; or var tm_gray_site = false; in the HTML top script tag to enable / disable gray scale or color of the page. Vivamus sit amet scelerisque diam. Donec congue feugiat consectetur. Donec facilisis, elit non suscipit pretium, lacus quam feugiat nulla, id tempus libero tellus ut nisi. Mauris non mi molestie, tristique nibh eu, auctor nibh. Fusce accumsan pretium ex in ullamcorper.
+                                Ut blandit nisi purus, eget imperdiet sapien sodales et. Duis euismod, elit in laoreet cursus, ante diam facilisis lacus, sit amet aliquam odio quam ut libero. Proin bibendum ex nec lorem semper euismod. Nulla sed urna at ligula maximus blandit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 footer_nav">
+                <ul >
+                    <li><a href="#" class="ziti">
+                        <i class="icon-facebook"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-google-plus"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-twitter"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-apple"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-linkedin"></i>
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 Copyright ">
+                <p>Copyright © 2017 Your Company | More Templates 李达康书记 - Collect from 张许许</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--第6个页面-->
+    <div class="content_div hide1"style="background: #7EA2D1" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6 col61">
+                    <div class="col6_box1" >
+                        <div class="col-lg-8 col-xs-8 col-md-8 col-sm-8 miaoshu">Feel free to say Hi!</div>
+                        <div class="col-lg-8 col-xs-8 col-md-8 col-sm-8 miaoshu">
+                            Nulla sed urna at ligula maximus blandit. Mauris nisi ligula, ultricies ac diam id, hendrerit tincidunt ipsum. Maecenas non massa justo.
+                        </div>
+                        <form id="myForm">
+
+                            <div class="col-lg-6 col-xs-6 col-md-8 col-sm-8">
+                                <input type="text" name="name" class="form-control" placeholder="name">
+                            </div>
+                            <div class="col-lg-6 col-xs-6 col-md-8 col-sm-8">
+                                <input type="text" name="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
+                                <input type="text" name="title" class="form-control" placeholder="Enter the title">
+                            </div>
+                            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12" >
+                                <textarea name="content" class="form-control" placeholder="Message content" rows="10"></textarea>
+                            </div>
+                            <div class="col-lg-8 col-xs-8 col-md-8 col-sm-8">
+                                <input type="button" class="btn btn-primary" value="submit">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="col-lg-6  col-xs-12 col-md-6 col-sm-6 col61">
+                    <div class="col6_box1" >
+                        <div class="col-lg-8 col-xs-8 col-md-8 col-sm-8 miaoshu">
+                            Nulla sed urna at ligula maximus blandit. Mauris nisi ligula, ultricies ac diam id, hendrerit tincidunt ipsum. Maecenas non massa justo.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 footer_nav">
+                <ul >
+                    <li><a href="#" class="ziti">
+                        <i class="icon-facebook"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-google-plus"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-twitter"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-apple"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="icon-linkedin"></i>
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 Copyright ">
+                <p>Copyright © 2017 Your Company | More Templates 李达康书记 - Collect from 张许许</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
